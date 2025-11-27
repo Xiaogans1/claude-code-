@@ -1,0 +1,36 @@
+model_list:
+  - model_name: "*"
+    litellm_params:
+      # ===== 请根据你使用的服务选择配置 =====
+
+      # 1. Ollama 配置示例:
+      #    model: ollama/qwen2.5:latest
+      #    api_base: http://localhost:11434
+      #    api_key: ollama
+
+      # 2. vLLM 配置示例:
+      #    model: openai/Qwen3-Next-80B-A3B-Instruct
+      #    api_base: http://0.0.0.0:8000/v1
+      #    api_key: your-api-key
+
+      # 3. LM Studio 配置示例:
+      #    model: openai/your-model-name
+      #    api_base: http://localhost:1234/v1
+      #    api_key: lm-studio
+
+      # 4. LocalAI 配置示例:
+      #    model: openai/your-model-name
+      #    api_base: http://localhost:8080/v1
+      #    api_key: local-ai
+
+      # 请在下方填写你的实际配置:
+      model:
+      api_base:
+      api_key: ""
+      drop_params: true
+      mock_response: false
+
+general_settings:
+  master_key: sk-1234
+  drop_params: true
+  allow_requests: true

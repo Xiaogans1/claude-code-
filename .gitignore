@@ -2,9 +2,6 @@
 .claude/
 .claude.json
 
-# 用户自定义配置(包含敏感信息)
-litellm_config.yaml
-
 # 日志文件
 *.log
 
